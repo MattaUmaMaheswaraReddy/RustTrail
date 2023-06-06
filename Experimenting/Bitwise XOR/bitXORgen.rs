@@ -1,6 +1,3 @@
-
-//STILL NOT RUNNING - Check WHY
-
 use std::io;
 
 //Define the macro
@@ -27,9 +24,6 @@ fn main(){
     let value2: i32 = value2.trim().parse().expect("Invalid input");
 
 
-	//Invoke the macro 
-    BitwiseXOR!(value1, value2);
-
-	let result = BitwiseXOR();
+	let result = BitwiseXOR!(value1, value2); //Call the macro and save the output in 'result'
 	println!("Bitwise XOR here is {}", result);
 }
