@@ -9,3 +9,5 @@ In this code, we find the bitwise XOR of 4 and 3.
 Bitwise XOR of 4 and  3 => 1 xor 1 || 0 xor 1 || 0 xor 1 (where || is the concatenation symbol)
 
 which results in 111. The decimal representation of 111 is 7, which is the output we get when we compile the code and run the output. 
+
+Note: The file named 'bitXOR' with no extension is the output we get after compiling the code.
